@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <!--- <div class="btn" onclick="cha()">y</div>
+    <div class="btn" onclick="chall()">n</div>-->
+    <h1 id="message">Lorem ipsum, dolor sit amet.</h1>
+    <button class="btn" onclick="cha()">yes</button>
+    <button class="btn" onclick="chall()">no</button>
+    <script>
+        function cha(){
+            var msg = 'You clicked Y';
+            document.getElementById('message').innerText = msg;
+        }
+
+        function chall(){
+            var msg = 'You clicked N';
+            document.getElementById('message').innerText = msg;
+        }
+    </script>
+    <footer><p> once you click you can't go back</p></footer>
+
+</body>
+</html>
